@@ -81,34 +81,30 @@ src/
  ├─ hooks/         # Custom React hooks
  ├─ utils/         # Helper functions
  ├─ assets/        # Images, icons, styles
+
 ⚠️ Current Limitations
 Demo/mock mode only (no real eCourt API integration yet)
-
 Captcha is simulated
-
 PDF downloads are basic (not actual judgments)
-
 Frontend-only (no backend/database)
-
 No authentication or persistent user sessions
 
 🌐 Deployment
 You can host this project easily on Vercel, Netlify, or your own server.
-
 Run the build:
 npm run build
+
 Deploy the dist/ folder to your hosting service.
 
 🛠️ Contribution Guide
 Contributions are welcome!
-
 Fork the repository
 
 # Create a branch for your feature:
 git checkout -b feature-name
 # Commit your changes:
 git commit -m "Add feature-name"
-Push to your fork:
+# Push to your fork:
 git push origin feature-name
 Open a Pull Request
 
