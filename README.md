@@ -73,8 +73,6 @@ bun run build
 The optimized output will be in the dist/ folder.
 
 📂 Project Structure
-bash
-Copy code
 src/
  ├─ components/    # Reusable UI Components
  ├─ pages/         # Multi-step form & main views
