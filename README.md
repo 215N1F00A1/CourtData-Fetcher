@@ -52,19 +52,13 @@ Check your versions:
 node -v
 npm -v
 2. Clone the Repository
-bash
-Copy code
 git clone https://github.com/<your-username>/CourtData-Fetcher.git
 cd CourtData-Fetcher
 3. Install Dependencies
-bash
-Copy code
 npm install
 # or
 bun install
 4. Start the Development Server
-bash
-Copy code
 npm run dev
 # or
 bun run dev
@@ -73,9 +67,6 @@ Your app will be running at:
 
 5. Build for Production
 When you’re ready to deploy:
-
-bash
-Copy code
 npm run build
 # or
 bun run build
@@ -105,9 +96,6 @@ No authentication or persistent user sessions
 You can host this project easily on Vercel, Netlify, or your own server.
 
 Run the build:
-
-bash
-Copy code
 npm run build
 Deploy the dist/ folder to your hosting service.
 
@@ -117,19 +105,10 @@ Contributions are welcome!
 Fork the repository
 
 Create a branch for your feature:
-
-bash
-Copy code
 git checkout -b feature-name
 Commit your changes:
-
-bash
-Copy code
 git commit -m "Add feature-name"
 Push to your fork:
-
-bash
-Copy code
 git push origin feature-name
 Open a Pull Request
 
