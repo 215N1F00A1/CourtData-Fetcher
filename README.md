@@ -104,9 +104,9 @@ Contributions are welcome!
 
 Fork the repository
 
-Create a branch for your feature:
+# Create a branch for your feature:
 git checkout -b feature-name
-Commit your changes:
+# Commit your changes:
 git commit -m "Add feature-name"
 Push to your fork:
 git push origin feature-name
