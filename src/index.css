@@ -1,0 +1,117 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Professional Legal Theme Design System */
+
+@layer base {
+  :root {
+    --background: 0 0% 98%;
+    --foreground: 220 20% 15%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 220 20% 15%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 220 20% 15%;
+
+    /* Deep professional blue for legal theme */
+    --primary: 217 91% 50%;
+    --primary-foreground: 0 0% 100%;
+    --primary-light: 217 91% 60%;
+    --primary-dark: 217 91% 40%;
+
+    /* Neutral gray for secondary actions */
+    --secondary: 220 15% 45%;
+    --secondary-foreground: 0 0% 100%;
+
+    --muted: 220 13% 95%;
+    --muted-foreground: 220 15% 45%;
+
+    /* Success green for completed steps */
+    --accent: 142 76% 36%;
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 220 13% 91%;
+    --input: 220 13% 91%;
+    --ring: 217 91% 50%;
+
+    --radius: 0.5rem;
+
+    /* Custom tokens */
+    --sidebar-bg: 0 0% 97%;
+    --sidebar-hover: 217 91% 96%;
+    --success-bg: 142 76% 95%;
+    --warning-bg: 45 93% 95%;
+    --loading-bg: 217 91% 96%;
+
+    /* Shadows */
+    --shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+    --shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.1);
+    --shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.1);
+
+    /* Transitions */
+    --transition-smooth: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .dark {
+    --background: 220 20% 10%;
+    --foreground: 0 0% 95%;
+
+    --card: 220 20% 12%;
+    --card-foreground: 0 0% 95%;
+
+    --popover: 220 20% 12%;
+    --popover-foreground: 0 0% 95%;
+
+    --primary: 217 91% 55%;
+    --primary-foreground: 0 0% 100%;
+    --primary-light: 217 91% 65%;
+    --primary-dark: 217 91% 45%;
+
+    --secondary: 220 15% 25%;
+    --secondary-foreground: 0 0% 95%;
+
+    --muted: 220 15% 18%;
+    --muted-foreground: 220 13% 65%;
+
+    --accent: 142 76% 40%;
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 84% 55%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 220 15% 20%;
+    --input: 220 15% 20%;
+    --ring: 217 91% 55%;
+
+    --sidebar-bg: 220 20% 8%;
+    --sidebar-hover: 217 91% 15%;
+    --success-bg: 142 76% 15%;
+    --warning-bg: 45 93% 15%;
+    --loading-bg: 217 91% 15%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground font-sans antialiased;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-semibold;
+  }
+}
+
+@layer utilities {
+  .transition-smooth {
+    transition: var(--transition-smooth);
+  }
+}
