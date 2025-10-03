@@ -52,14 +52,20 @@ bun run dev
 App will be available at: http://localhost:8080
 
 Build for Production
+<<<<<<< HEAD
 bash
 Copy code
+=======
+>>>>>>> 1f932bfd291ca538dd567e3e02da7bc72a94a727
 npm run build
 # or
 bun run build
 📂 Project Structure
+<<<<<<< HEAD
 bash
 Copy code
+=======
+>>>>>>> 1f932bfd291ca538dd567e3e02da7bc72a94a727
 src/
  ├─ components/    # UI Components
  ├─ pages/         # Multi-step form & views
@@ -80,8 +86,11 @@ No authentication or user sessions
 🌐 Deployment
 You can deploy this project on any hosting platform like Vercel, Netlify, or your own server.
 
+<<<<<<< HEAD
 bash
 Copy code
+=======
+>>>>>>> 1f932bfd291ca538dd567e3e02da7bc72a94a727
 npm run build
 # Deploy the dist/ folder
 🛠️ Contribution
