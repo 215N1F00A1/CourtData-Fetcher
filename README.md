@@ -1,4 +1,3 @@
-
 # ECourts Scraper
 
 A **web-based interface** for searching and retrieving case information from Indian eCourts services.  
@@ -36,6 +35,7 @@ This application provides a guided step-by-step process to query court records a
 
 ### Local Development
 
+```bash
 # Step 1: Clone the repository
 git clone <YOUR_GIT_URL>
 cd <YOUR_PROJECT_NAME>
